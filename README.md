@@ -5,7 +5,6 @@
 |--------|----------------|-----------------|---------------------|----------------------------------------|
 | POST   | `/api/session` | —               | `{}`                | `201 { sessionId, token, expiresIn }`  |
 | POST   | `/api/chat`    | `Bearer <token>`| `{ "message": "…" }`| `200 { reply }`                        |
-| GET    | `/health`      | —               | —                   | `{ status: "ok" }`                     |
 
 ## Puesta en marcha
 
