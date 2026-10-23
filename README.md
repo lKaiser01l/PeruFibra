@@ -6,7 +6,7 @@
 | POST   | `/api/session` | —               | `{}`                | `201 { sessionId, token, expiresIn }`  |
 | POST   | `/api/chat`    | `Bearer <token>`| `{ "message": "…" }`| `200 { reply }`                        |
 
-## Puesta en marcha
+## Yo si creo
 
 ```bash
 npm install
